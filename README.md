@@ -18,7 +18,9 @@
     - add a form
     - add one input
 - [X] Show the WizardForm in the App
-- [ ] hook up the input so its a connected component
+- [X] hook up the input so its a connected component
     - create some state by called `useState()`
     - set the val of your input using your state variable
     - add on onChange that calls your setState fn
+- [ ] sending an action from WizardForm to App
+    - begin by `console.log`-ing the wizard submitted in the form

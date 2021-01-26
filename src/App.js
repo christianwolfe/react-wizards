@@ -5,7 +5,10 @@ import WizardForm from './components/WizardForm';
 function App() {
   return (
       <div>
-        <WizardForm />
+        <WizardForm onSubmit={(wizard) => {
+          console.log('====wiz here====');
+          console.log(wizard);
+        }} />
 
       </div>
   

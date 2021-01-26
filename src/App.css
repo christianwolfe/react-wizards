@@ -1,7 +1,26 @@
-.App {
-  text-align: center;
+html {
+  text-align:center;
+  background-color: whitesmoke;
 }
 
+form {
+  align-items: center;
+  text-align: right
+}
+.form-container{
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1rem;
+  color: white;
+  width: 35%;
+  background-color: #282c34;
+  border-radius: 10px;
+  box-shadow: 1px 1px 13px black;
+  display: grid;
+  justify-content:center;
+  align-items: center;
+      height: auto;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
