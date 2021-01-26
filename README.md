@@ -12,6 +12,13 @@
 
 
 ## Steps
-- [ ] Create a WizardForm.jsx
+- [X] Create a WizardForm.jsx
     - fill out the basics (an import, a fn, an export)
-    
+    - add a section
+    - add a form
+    - add one input
+- [X] Show the WizardForm in the App
+- [ ] hook up the input so its a connected component
+    - create some state by called `useState()`
+    - set the val of your input using your state variable
+    - add on onChange that calls your setState fn

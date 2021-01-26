@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import WizardForm from './components/WizardForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div>
+        <WizardForm />
 
-      </header>
-    </div>
+      </div>
+  
   );
 }
 
